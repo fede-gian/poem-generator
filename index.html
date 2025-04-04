@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>This is me trying</title>
   </head>
@@ -19,14 +20,16 @@
             type="text"
             placeholder="What animal would you like to hear a poem about?"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
 
         <div class="poem" id="poem">
-          Si sta, come d'autunno
+          Si sta come <br />
+          d'autunno
           <br />
-          sugli alberi, i cuccioli.
+          sugli alberi <br />i cuccioli.
         </div>
       </main>
       <footer>
