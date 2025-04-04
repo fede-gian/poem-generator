@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>This is me trying</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="What animal would you like to hear a poem about?"
@@ -22,7 +23,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">
+        <div class="poem" id="poem">
           Si sta, come d'autunno
           <br />
           sugli alberi, i cuccioli.
